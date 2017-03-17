@@ -1,0 +1,10 @@
+Live version.
+http://demos.webicode.com/html/zap/animation-version/index.html#.
+
+icons: font-awesome
+http://fontawesome.io/icons/
+http://ionicons.com
+
+monsterrat
+
+animate.css ? lib ?
