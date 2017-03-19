@@ -1,4 +1,173 @@
-nav li {
-    display: inline-block;
-    margin: 0 auto;
+* {
+	margin: 0px;
+	padding: 0px;
 }
+body {
+	background: #FFF;
+	font-weight: normal;
+	position: relative;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    z-index: 999;
+    margin-top: 80px;
+    position:absolute;
+}
+
+header .logo {
+    float: left;
+    position: absolute;
+    text-align: left;
+    z-index: 9999;
+    margin-top: 5px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    position:relative;
+    z-index: 999;
+    min-height: 50px;
+    text-align: right;
+}
+
+nav li {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+.ownmenu {
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    float: right;
+    list-style: none;
+}
+
+header nav .ownmenu li {
+    padding: 0 15px;
+    display: inline-block;
+}
+
+header nav li a {
+    padding: 16px 0px;
+    margin: 0;
+    margin-top: 1px;
+    border-color: transparent;
+    text-decoration: none;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    position: relative;
+    border-bottom: 2px solid #fff;
+    border-color: transparent;
+}
+
+header nav li.active a {
+    color: #fff;
+    border-bottom: 2px solid #eeb013;
+    border-color: transparent;
+}
+
+header .shop-cart {
+    float: right !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: -4px 0;
+}
+
+header .search-nav {
+    float: right !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: -4px 0;
+}
+
+header .ownmenu > li.search-nav i {
+    font-size: 12px;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    background: #141414;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 2px;
+    border-radius: 50%;
+}
+
+header .ownmenu > li.shop-cart i {
+    font-size: 12px;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    background: #141414;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+header .shop-cart .numb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #eeb013;
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    text-align: center;
+    line-height: 15px;
+    padding-left: 3px;
+    padding-top: 1px;
+    z-index: 99;
+}
+
+section {
+ position: relative;
+ overflow: hidden;
+ background: #fff;
+ width: 100%;   
+}
+
+.home-slider {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.tp-banner-container {
+    max-height: none;
+    overflow: visible;
+    height: 1020px;
+}
+
+.tp-bgimg {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(../images/slide-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+

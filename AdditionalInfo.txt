@@ -6,5 +6,8 @@ http://fontawesome.io/icons/
 http://ionicons.com
 
 monsterrat
-
 animate.css ? lib ?
+
+wow.js - for loading content on scroll
+revoltion js - for slider
+
