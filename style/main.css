@@ -87,16 +87,16 @@ header nav li a {
     border-color: transparent;
 }
 
-/*header nav li.active a {
+header nav li.active a {
     color: #fff;
     border-bottom: 2px solid #eeb013;
     border-color: transparent;
-}*/
+}
 
-/*header nav li.active a:after {
+header nav li.active a:after {
     width: 100%;
 }
-*/
+
 
 header nav li a:after {
     display: block;
