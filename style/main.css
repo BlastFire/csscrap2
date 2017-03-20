@@ -57,9 +57,16 @@ li {
     list-style: none;
 }
 
+.ownmenu a {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    outline: none;
+    z-index: 10;
+}
+
 header nav .ownmenu li {
     padding: 0 15px;
-    display: inline-block;
+    float: left;
 }
 
 header nav li a {
@@ -80,10 +87,42 @@ header nav li a {
     border-color: transparent;
 }
 
-header nav li.active a {
+/*header nav li.active a {
     color: #fff;
     border-bottom: 2px solid #eeb013;
     border-color: transparent;
+}*/
+
+/*header nav li.active a:after {
+    width: 100%;
+}
+*/
+
+header nav li a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;   
+    height: 4px;
+    background-color: #efb21a;
+    content: "";
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+header nav li a:hover {
+    text-decoration: none;
+	color: #fff;
+}
+
+header nav li a:hover:after {
+	width: 100%;
+}
+
+header nav li a:visited {
+    text-decoration: none;
+    color: #fff;
 }
 
 header .shop-cart {
@@ -97,7 +136,7 @@ header .search-nav {
     float: right !important;
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
-    margin: -4px 0;
+    margin: -4px -18px;
 }
 
 header .ownmenu > li.search-nav i {
